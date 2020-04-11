@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".F3">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="4dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="4dp">
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="334dp"
+                    android:layout_height="wrap_content"
+                    android:text="कोरोना वायरस (COVID-19) को रोकने के लिए, फ़िलहाल किसी तरह का टीका नहीं है.
+आप वायरस से खुद को बचाने के साथ ही इसे फैलने से रोकने में भी मदद कर सकते हैं. इसके लिए आप:\n\nऐसा करें"
+                    android:textSize="20sp" />
+                <ImageButton
+                    android:id="@+id/i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_mic1" />
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• नियमित रूप से साबुन और पानी से या अल्कोहल वाले हैंड सैनिटाइज़र से 20 सेकंड तक हाथ धोएं \n•खांसने और छींकने के दौरान डिस्पोज़ेबल टिशू से या कोहनी को मोड़कर, अपनी नाक और मुंह को ढकें \n•जो लोग बीमार हैं उनसे (एक मीटर या तीन फ़ीट की) दूरी बनाए रखें \n•घर पर ही रहें और अगर आप बीमार हैं, तो खुद को परिवार के सभी लोगों से अलग कर लें \n"/>
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ऐसा ना करें"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• अगर आपके हाथ साफ़ नहीं हैं, तो अपनी आंख, नाक या मुंह को न छुएं"/>
+            <TextView
+                android:id="@+id/tk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="अधिक जानकारी के लिए यहां क्लिक करें"
+
+
+                android:textColor="@android:color/black"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="260dp" />
+
+            <TextView
+                android:id="@+id/tk2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:clickable="true"
+                android:ems="10"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:text="https://www.who.int/emergencies/diseases/novel-coronavirus-2019"
+                tools:layout_editor_absoluteX="142dp"
+                tools:layout_editor_absoluteY="260dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

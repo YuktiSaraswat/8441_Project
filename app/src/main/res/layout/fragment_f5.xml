@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".F5">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="4dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="4dp">
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="COVID-19 Dashboard as on : 11 April 2020, 17:00 GMT+5:30
+  \n\n"/>
+        <ImageButton
+            android:id="@+id/i"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_mic1" />
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="25sp"
+            android:text="Active Cases: 6634 \nCured / Discharged: 652\nDeaths: 242\nMigrated: 1" />
+        <TextView
+            android:id="@+id/tk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click on link below to get district wise reportings: "
+
+
+            android:textColor="@android:color/black"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="260dp" />
+
+        <TextView
+            android:id="@+id/tk2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:clickable="true"
+            android:ems="10"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:text="https://www.mohfw.gov.in/pdf/DistrictWiseList324.pdf"
+            tools:layout_editor_absoluteX="142dp"
+            tools:layout_editor_absoluteY="260dp" />
+
+    </LinearLayout>
+</FrameLayout>

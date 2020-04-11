@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".F4">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="4dp">
+
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="99dp"
+                android:text="कोरोना वायरस (COVID-19) को रोकने या इसके उपचार के लिए कोई भी खास दवा नहीं है. हो सकता है कि लोगों को सांस लेने में होने वाली दिक्क्त से बचने के लिए, मेडिकल सहायता लेनी पड़े. \n"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="4dp">
+
+
+                <TextView
+                    android:id="@+id/t2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="खुद की देखभाल    "
+                    android:textSize="20sp"/>
+
+                <ImageButton
+                    android:id="@+id/i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_mic1" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="148dp"
+                android:text="अगर आप में इस रोग के कुछ लक्षण हैं, तो पूरी तरह ठीक होने तक घर पर ही रहें. आपको इन लक्षणों में राहत मिल सकती है, अगर आप: \n•आराम करते हैं और सोते हैं
+\n•खुद को किसी तरह गर्म रखते हैं
+\n•खूब पानी या दूसरी तरल चीज़ें लेते हैं
+\n•गले की खराश और खांसी को कम करने के लिए, कमरे में ह्यूमिडिफ़ायर का इस्तेमाल करते हैं और गर्म पानी से नहाते हैं " />
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="मेडिकल ट्रीटमेंट    "
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="wrap_content"
+                android:layout_height="352dp"
+                android:text="अगर आपको बुखार, खांसी, और सांस लेने में दिक्कत हो रही है, तो तुरंत डॉक्टर को दिखाएं. आप अपने डॉक्टर को कॉल करके अपने हाल ही में की गयी यात्राओं के बारे में बताए या अन्य किसी भी यात्रियों से मिले हों उनके बारे में बताए।
+"/>
+            <TextView
+                android:id="@+id/tk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="अधिक जानकारी के लिए यहां क्लिक करें"
+
+
+                android:textColor="@android:color/black"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="260dp" />
+
+            <TextView
+                android:id="@+id/tk2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:clickable="true"
+                android:ems="10"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:text="https://www.who.int/emergencies/diseases/novel-coronavirus-2019"
+                tools:layout_editor_absoluteX="142dp"
+                tools:layout_editor_absoluteY="260dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

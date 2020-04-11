@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".F1">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="4dp">
+
+            <ImageButton
+                android:id="@+id/i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_mic1" />
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="कोरोना वायरस (COVID-19) की बीमारी, सक्रमण से फैलती है. यह एक नए वायरस की वजह से होती है.
+इस बीमारी की वजह से सांस की बीमारी (जैसे कि फ़्लू) होती है. इसके अलावा, खांसी, बुखार, और ज़्यादा गंभीर मामलों में सांस लेने में तकलीफ़ होना इस बीमारी के लक्षण हैं. खुद को सुरक्षित रखने के लिए, अपने हाथों को बार-बार धोएं. इसके अलावा, अपने चेहरे को छूने से बचें और जो लोग बीमार हैं उनसे (एक मीटर या तीन फ़ीट की) दूरी बनाए रखें."/>          <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n यह कैसे फैलता है \n"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="कोरोना वायरस की बीमारी मुख्य रूप से किसी संक्रमित व्यक्ति के संपर्क में आने से फैलती है. संक्रमित व्यक्ति के खांसने या छींकने पर उसके मुंह और नाक से गिरने वाली बूंदों से यह बीमारी दूसरे लोगों में फैलती है. यह तब भी फैलती है, जब कोई व्यक्ति उस सतह या चीज़ को छूता है जिस पर वायरस होता है, इसके बाद अपनी आंख, नाक या मुंह को छूता है.\n"/>          <TextView
+                android:id="@+id/t4"
+                android:layout_width="358dp"
+                android:layout_height="wrap_content"
+                android:text="२०२० भारत में कोरोनावायरस महामारी \n"
+            android:textSize="20sp" />
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2019–20 कोरोनावायरस महामारी चीन से 30 जनवरी 2020 को भारत में फैलने की पुष्टि हुई थी। भारतीय आयुर्विज्ञान अनुसंधान परिषद और स्वास्थ्य एवं परिवार कल्याण मन्त्रालय ने अभी तक इस वायरस से भारत में 7,447 मामलों की पुष्टि की है जिसमें 239 लोगों की मृत्यु हुई है।
+
+इस प्रकोप को एक दर्जन से अधिक राज्यों और केंद्र शासित प्रदेशों में महामारी घोषित किया गया है, जहां महामारी रोग अधिनियम, 1897 के प्रावधानों को लागू किया गया है, और शैक्षणिक संस्थानों और कई वाणिज्यिक संस्थानों को बंद कर दिया गया है। साथ भारत ने सभी पर्यटक वीजा को भी निलंबित कर दिया है, क्योंकि अधिकांश पुष्ट मामले अन्य देशों से लौटे लोगों में पाये गए है। सरकार ने देश भर के 75 जिलों में लॉकडाउन भी जारी किया है, जहां 31 मार्च तक कोविड-19 मामलों की पुष्टि की गई है। कोरोना वायरस से निपटने के लिए प्रधानमंत्री नरेंद्र मोदी ने २४ मार्च को देशव्यापी लॉकडाउन की घोषणा कर दी है। २५ मार्च रात १२ बजे से पीएम मोदी ने २१ दिनों के लिए लॉकडाउन की घोषणा की है।\n"
+
+    />
+            <TextView
+                android:id="@+id/tk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click on link below to know more: "
+
+
+                android:textColor="@android:color/black"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="260dp" />
+
+            <TextView
+                android:id="@+id/tk2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:clickable="true"
+                android:ems="10"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:text="https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_India"
+                tools:layout_editor_absoluteX="142dp"
+                tools:layout_editor_absoluteY="260dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

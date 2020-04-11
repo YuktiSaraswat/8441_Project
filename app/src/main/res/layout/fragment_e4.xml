@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".E4">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="4dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="4dp">
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="348dp"
+                android:layout_height="wrap_content"
+                android:text="You can protect yourself and help prevent spreading the virus to others if you: \n\nDo"
+                android:textSize="20sp" />
+            <ImageButton
+                android:id="@+id/i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_mic1" />
+        </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Wash your hands regularly for 20 seconds, with soap and water or alcohol-based hand rub
+• Cover your nose and mouth with a disposable tissue or flexed elbow when you cough or sneeze
+• Avoid close contact (1 meter or 3 feet) with people who are unwell
+• Stay home and self-isolate from others in the household if you feel unwell\n\n"/>
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Touch your eyes, nose, or mouth if your hands are not clean"/>
+            <TextView
+                android:id="@+id/tk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click on link below to know more: "
+
+
+                android:textColor="@android:color/black"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="260dp" />
+
+            <TextView
+                android:id="@+id/tk2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:clickable="true"
+                android:ems="10"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:text="https://www.who.int/emergencies/diseases/novel-coronavirus-2019"
+                tools:layout_editor_absoluteX="142dp"
+                tools:layout_editor_absoluteY="260dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

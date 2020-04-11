@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".E1">
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="4dp">
+
+        <ImageButton
+            android:id="@+id/i"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_mic1" />
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coronavirus disease (COVID-19) is an infectious disease caused by a new virus.
+The disease causes respiratory illness (like the flu) with symptoms such as a cough, fever, and in more severe cases, difficulty breathing. You can protect yourself by washing your hands frequently, avoiding touching your face, and avoiding close contact (1 meter or 3 feet) with people who are unwell."/>
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="224dp"
+            android:layout_height="49dp"
+            android:text="How it spreads "
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coronavirus disease spreads primarily through contact with an infected person when they cough or sneeze. It also spreads when a person touches a surface or object that has the virus on it, then touches their eyes, nose, or mouth.\n" />
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="358dp"
+            android:layout_height="wrap_content"
+            android:text="Covid-19 in India:\n"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/t5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The first case of the 2019–20 coronavirus pandemic in India was reported on 30 January 2020, originating from China. As of 11 April 2020, the Ministry of Health and Family Welfare have confirmed a total of 7,447 cases, 643 recoveries (including 1 migration) and 239 deaths in the country. Experts suggest the number of infections could be much higher as India's testing rates are among the lowest in the world. The infection rate of COVID-19 in India is reported to be 1.7, significantly lower than in the worst affected countries.
+
+The outbreak has been declared an epidemic in more than a dozen states and union territories, where provisions of the Epidemic Diseases Act, 1897 have been invoked, and educational institutions and many commercial establishments have been shut down. India has suspended all tourist visas, as a majority of the confirmed cases were linked to other countries.\n
+\n" />
+        <TextView
+            android:id="@+id/tk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click on link below to know more: "
+
+
+            android:textColor="@android:color/black"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="260dp" />
+
+        <TextView
+            android:id="@+id/tk2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:clickable="true"
+            android:ems="10"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:text="https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_India"
+            tools:layout_editor_absoluteX="142dp"
+            tools:layout_editor_absoluteY="260dp" />
+
+    </LinearLayout>
+ </ScrollView>
+</LinearLayout>
+
